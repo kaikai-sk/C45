@@ -1,0 +1,160 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: consultr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\WHXQG\LOCALS~1\Temp\RSP118.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/consultr.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\c4.5r8\consultr\consultr.c"
+"D:\c4.5r8\consultr\getdata.c"
+"D:\c4.5r8\consultr\getnames.c"
+"D:\c4.5r8\consultr\getopt.c"
+"D:\c4.5r8\consultr\header.c"
+"D:\c4.5r8\consultr\rules.c"
+"D:\c4.5r8\consultr\trees.c"
+"D:\c4.5r8\consultr\userint.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WHXQG\LOCALS~1\Temp\RSP118.tmp" 
+Creating temporary file "C:\DOCUME~1\WHXQG\LOCALS~1\Temp\RSP119.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/consultr.pdb" /debug /machine:I386 /out:"Debug/consultr.exe" /pdbtype:sept 
+.\Debug\consultr.obj
+.\Debug\getdata.obj
+.\Debug\getnames.obj
+.\Debug\getopt.obj
+.\Debug\header.obj
+.\Debug\rules.obj
+.\Debug\trees.obj
+.\Debug\userint.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\WHXQG\LOCALS~1\Temp\RSP119.tmp"
+<h3>Output Window</h3>
+Compiling...
+consultr.c
+d:\c4.5r8\consultr\consultr.c(147) : warning C4244: '=' : conversion from 'short ' to 'char ', possible loss of data
+d:\c4.5r8\consultr\consultr.c(149) : warning C4013: 'CheckValue' undefined; assuming extern returning int
+d:\c4.5r8\consultr\consultr.c(166) : warning C4244: 'return' : conversion from 'const double ' to 'float ', possible loss of data
+d:\c4.5r8\consultr\consultr.c(171) : warning C4244: 'return' : conversion from 'const double ' to 'float ', possible loss of data
+d:\c4.5r8\consultr\consultr.c(259) : warning C4013: 'SkipLine' undefined; assuming extern returning int
+d:\c4.5r8\consultr\consultr.c(262) : warning C4033: 'InterpretRuleset' must return a value
+d:\c4.5r8\consultr\consultr.c(263) : warning C4013: 'Clear' undefined; assuming extern returning int
+d:\c4.5r8\consultr\consultr.c(263) : warning C4033: 'InterpretRuleset' must return a value
+d:\c4.5r8\consultr\consultr.c(264) : warning C4013: 'exit' undefined; assuming extern returning int
+d:\c4.5r8\consultr\consultr.c(289) : warning C4013: 'PrintHeader' undefined; assuming extern returning int
+d:\c4.5r8\consultr\consultr.c(293) : warning C4013: 'getopt' undefined; assuming extern returning int
+d:\c4.5r8\consultr\consultr.c(310) : warning C4013: 'GetNames' undefined; assuming extern returning int
+d:\c4.5r8\consultr\consultr.c(311) : warning C4013: 'GetRules' undefined; assuming extern returning int
+d:\c4.5r8\consultr\consultr.c(317) : warning C4013: 'PrintRule' undefined; assuming extern returning int
+d:\c4.5r8\consultr\consultr.c(324) : warning C4013: 'calloc' undefined; assuming extern returning int
+getdata.c
+D:\c4.5r8\consultr\getdata.c(38) : warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getdata.c(39) : warning C4013: 'strcat' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getdata.c(40) : warning C4013: 'Error' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getdata.c(54) : warning C4013: 'realloc' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getdata.c(59) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getdata.c(33) : warning C4101: 'j' : unreferenced local variable
+D:\c4.5r8\consultr\getdata.c(101) : warning C4013: 'calloc' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getdata.c(116) : warning C4013: 'strcmp' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getdata.c(122) : warning C4013: 'Which' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getdata.c(134) : warning C4013: 'exit' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getdata.c(157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+getnames.c
+D:\c4.5r8\consultr\getnames.c(134) : warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(135) : warning C4013: 'strcat' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(136) : warning C4013: 'Error' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(140) : warning C4013: 'calloc' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(149) : warning C4013: 'realloc' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(160) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(201) : warning C4013: 'strcmp' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(204) : warning C4013: 'memcmp' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(210) : warning C4013: 'atoi' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(215) : warning C4013: 'exit' undefined; assuming extern returning int
+D:\c4.5r8\consultr\getnames.c(279) : warning C4013: 'strlen' undefined; assuming extern returning int
+getopt.c
+D:\c4.5r8\consultr\getnames.c(326) : warning C4716: 'Error' : must return a value
+header.c
+d:\c4.5r8\consultr\header.c(21) : warning C4013: 'sprintf' undefined; assuming extern returning int
+d:\c4.5r8\consultr\header.c(22) : warning C4013: 'printf' undefined; assuming extern returning int
+d:\c4.5r8\consultr\header.c(24) : warning C4013: 'strlen' undefined; assuming extern returning int
+d:\c4.5r8\consultr\header.c(25) : warning C4013: 'putchar' undefined; assuming extern returning int
+rules.c
+d:\c4.5r8\consultr\rules.c(40) : warning C4013: 'strcpy' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(41) : warning C4013: 'strcat' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(42) : warning C4013: 'Error' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(44) : warning C4013: 'StreamOut' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(73) : warning C4013: 'SaveDiscreteNames' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(102) : warning C4013: 'StreamIn' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(108) : warning C4013: 'calloc' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(111) : warning C4013: 'malloc' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(136) : warning C4013: 'free' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(139) : warning C4013: 'RecoverDiscreteNames' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(174) : warning C4013: 'realloc' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(272) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\c4.5r8\consultr\rules.c(307) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\c4.5r8\consultr\rules.c(309) : warning C4013: 'PrintRule' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(418) : warning C4013: 'PrintCondition' undefined; assuming extern returning int
+d:\c4.5r8\consultr\rules.c(451) : warning C4033: 'PrintCondition' must return a value
+trees.c
+d:\c4.5r8\consultr\rules.c(422) : warning C4716: 'PrintRule' : must return a value
+d:\c4.5r8\consultr\rules.c(501) : warning C4716: 'PrintCondition' : must return a value
+d:\c4.5r8\consultr\trees.c(45) : warning C4013: 'Show' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(100) : warning C4013: 'ShowBranch' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(149) : warning C4013: 'Indent' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(181) : warning C4033: 'ShowBranch' must return a value
+d:\c4.5r8\consultr\trees.c(193) : warning C4013: 'strlen' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(294) : warning C4013: 'strcmp' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(300) : warning C4013: 'strcpy' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(301) : warning C4013: 'strcat' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(303) : warning C4013: 'Error' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(307) : warning C4013: 'OutTree' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(309) : warning C4013: 'SaveDiscreteNames' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(328) : warning C4013: 'StreamOut' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(397) : warning C4013: 'RecoverDiscreteNames' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(418) : warning C4013: 'malloc' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(420) : warning C4013: 'StreamIn' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(425) : warning C4013: 'calloc' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(514) : warning C4013: 'free' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(547) : warning C4013: 'memcpy' undefined; assuming extern returning int
+d:\c4.5r8\consultr\trees.c(551) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\c4.5r8\consultr\trees.c(552) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+userint.c
+d:\c4.5r8\consultr\trees.c(121) : warning C4716: 'Show' : must return a value
+d:\c4.5r8\consultr\trees.c(218) : warning C4716: 'ShowBranch' : must return a value
+d:\c4.5r8\consultr\trees.c(276) : warning C4716: 'Indent' : must return a value
+d:\c4.5r8\consultr\trees.c(364) : warning C4716: 'OutTree' : must return a value
+d:\c4.5r8\consultr\trees.c(480) : warning C4716: 'StreamOut' : must return a value
+d:\c4.5r8\consultr\trees.c(490) : warning C4716: 'StreamIn' : must return a value
+d:\c4.5r8\consultr\trees.c(667) : warning C4716: 'SaveDiscreteNames' : must return a value
+d:\c4.5r8\consultr\trees.c(699) : warning C4716: 'RecoverDiscreteNames' : must return a value
+D:\c4.5r8\consultr\userint.c(39) : warning C4033: 'CheckValue' must return a value
+D:\c4.5r8\consultr\userint.c(45) : warning C4013: 'PrintRange' undefined; assuming extern returning int
+D:\c4.5r8\consultr\userint.c(50) : warning C4013: 'ReadRange' undefined; assuming extern returning int
+D:\c4.5r8\consultr\userint.c(126) : warning C4033: 'ReadRange' must return a value
+D:\c4.5r8\consultr\userint.c(132) : warning C4013: 'PrintTree' undefined; assuming extern returning int
+D:\c4.5r8\consultr\userint.c(133) : warning C4013: 'SkipLine' undefined; assuming extern returning int
+D:\c4.5r8\consultr\userint.c(142) : warning C4033: 'ReadRange' must return a value
+D:\c4.5r8\consultr\userint.c(150) : warning C4013: 'ReadDiscr' undefined; assuming extern returning int
+D:\c4.5r8\consultr\userint.c(154) : warning C4013: 'ReadContin' undefined; assuming extern returning int
+D:\c4.5r8\consultr\userint.c(185) : warning C4013: 'Which' undefined; assuming extern returning int
+D:\c4.5r8\consultr\userint.c(196) : warning C4013: 'Retry' undefined; assuming extern returning int
+D:\c4.5r8\consultr\userint.c(197) : warning C4033: 'ReadDiscr' must return a value
+D:\c4.5r8\consultr\userint.c(232) : warning C4033: 'ReadDiscr' must return a value
+D:\c4.5r8\consultr\userint.c(98) : warning C4716: 'PrintRange' : must return a value
+D:\c4.5r8\consultr\userint.c(156) : warning C4716: 'ReadRange' : must return a value
+D:\c4.5r8\consultr\userint.c(246) : warning C4716: 'ReadDiscr' : must return a value
+D:\c4.5r8\consultr\userint.c(283) : warning C4716: 'ReadContin' : must return a value
+D:\c4.5r8\consultr\userint.c(301) : warning C4716: 'Retry' : must return a value
+D:\c4.5r8\consultr\userint.c(317) : warning C4716: 'SkipLine' : must return a value
+Linking...
+
+
+
+<h3>Results</h3>
+consultr.exe - 0 error(s), 107 warning(s)
+</pre>
+</body>
+</html>

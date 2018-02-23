@@ -1,0 +1,196 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: c4.5gt - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XQG\LOCALS~1\Temp\RSP6EB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/c4.5gt.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XQG\LOCALS~1\Temp\RSP6EB.tmp" 
+Creating temporary file "C:\DOCUME~1\XQG\LOCALS~1\Temp\RSP6EC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/c4.5gt.pdb" /debug /machine:I386 /out:"Debug/c4.5gt.exe" /pdbtype:sept 
+".\Debug\c4.5gt.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\XQG\LOCALS~1\Temp\RSP6EC.tmp"
+<h3>Output Window</h3>
+Compiling...
+c4.5gt.c
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(231) : warning C4013: 'PrintHeader' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(257) : warning C4013: 'atoi' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(262) : warning C4013: 'exit' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(287) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(299) : warning C4013: 'GetNames' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(300) : warning C4013: 'GetData' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(309) : warning C4013: 'OneTree' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(324) : warning C4013: 'SoftenThresh' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(326) : warning C4013: 'PrintTree' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(339) : warning C4013: 'SaveTree' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(344) : warning C4013: 'Evaluate' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(384) : warning C4013: 'InitialiseTreeData' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(385) : warning C4013: 'InitialiseWeights' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(387) : warning C4013: 'calloc' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(435) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(443) : warning C4013: 'FormTarget' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(449) : warning C4013: 'FormInitialWindow' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(542) : warning C4013: 'free' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(563) : warning C4013: 'Shuffle' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(599) : warning C4013: 'rand' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(599) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(676) : warning C4013: 'TreeSize' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(685) : warning C4013: 'ReleaseTree' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(775) : warning C4013: 'PrintConfusionMatrix' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(851) : warning C4013: 'malloc' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(992) : warning C4305: '=' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1002) : warning C4013: 'EvalSubset' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1007) : warning C4013: 'EvalDiscreteAtt' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1014) : warning C4013: 'EvalContinuousAtt' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1029) : warning C4305: '=' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1031) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1074) : warning C4013: 'SubsetTest' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1078) : warning C4013: 'DiscreteTest' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1085) : warning C4013: 'ContinTest' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1095) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1268) : warning C4244: 'return' : conversion from 'int ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1339) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1343) : warning C4305: 'return' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1348) : warning C4244: 'return' : conversion from 'const double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1412) : warning C4305: 'return' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1420) : warning C4305: 'return' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1432) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1463) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1467) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1544) : warning C4013: 'ComputeFrequencies' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1546) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1554) : warning C4305: '=' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1556) : warning C4033: 'EvalDiscreteAtt' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1561) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1650) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1669) : warning C4013: 'Sprout' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1739) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1747) : warning C4305: '=' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1749) : warning C4033: 'EvalContinuousAtt' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1752) : warning C4013: 'Quicksort' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1759) : warning C4305: '=' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1770) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1771) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1808) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1826) : warning C4305: '=' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1958) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1963) : warning C4305: '=' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1965) : warning C4033: 'EvalSubset' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1971) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1988) : warning C4013: 'memset' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2034) : warning C4013: 'Combine' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2051) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2072) : warning C4305: '=' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2103) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2131) : warning C4013: 'Uncombine' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2158) : warning C4013: 'PrintSubset' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2173) : warning C4305: '=' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2184) : warning C4013: 'memcpy' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2386) : warning C4013: 'CheckPossibleValues' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2456) : warning C4013: 'Indent' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2652) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2652) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2652) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2652) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2652) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2652) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2652) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2653) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2653) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2653) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2653) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2653) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2653) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2680) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2685) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2686) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2691) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2697) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2698) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2740) : warning C4013: 'ScanTree' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2774) : warning C4033: 'ScanTree' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2827) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2926) : warning C4033: 'PrintConfusionMatrix' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3162) : warning C4013: 'strcpy' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3163) : warning C4013: 'strcat' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3164) : warning C4013: 'Error' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3177) : warning C4013: 'realloc' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3229) : warning C4013: 'strcmp' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3232) : warning C4013: 'memcmp' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3307) : warning C4013: 'strlen' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3384) : warning C4101: 'j' : unreferenced local variable
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3508) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3569) : warning C4013: 'Classify' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3615) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3621) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3624) : warning C4033: 'Classify' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3644) : warning C4033: 'Classify' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3665) : warning C4033: 'Classify' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3680) : warning C4033: 'Classify' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3693) : warning C4033: 'Classify' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3737) : warning C4013: 'Show' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3792) : warning C4013: 'ShowBranch' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3873) : warning C4033: 'ShowBranch' must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3999) : warning C4013: 'OutTree' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4001) : warning C4013: 'SaveDiscreteNames' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4020) : warning C4013: 'StreamOut' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4089) : warning C4013: 'RecoverDiscreteNames' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4112) : warning C4013: 'StreamIn' undefined; assuming extern returning int
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4243) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4244) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(403) : warning C4716: 'OneTree' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(543) : warning C4716: 'FormTarget' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(579) : warning C4716: 'FormInitialWindow' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(604) : warning C4716: 'Shuffle' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(778) : warning C4716: 'Evaluate' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(889) : warning C4716: 'InitialiseTreeData' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(909) : warning C4716: 'InitialiseWeights' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1570) : warning C4716: 'EvalDiscreteAtt' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1618) : warning C4716: 'ComputeFrequencies' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1674) : warning C4716: 'DiscreteTest' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1841) : warning C4716: 'EvalContinuousAtt' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(1870) : warning C4716: 'ContinTest' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2195) : warning C4716: 'EvalSubset' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2228) : warning C4716: 'Combine' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2254) : warning C4716: 'Uncombine' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2289) : warning C4716: 'PrintSubset' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2321) : warning C4716: 'SubsetTest' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2630) : warning C4716: 'CheckPossibleValues' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2746) : warning C4716: 'SoftenThresh' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2910) : warning C4716: 'ScanTree' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(2960) : warning C4716: 'PrintConfusionMatrix' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3031) : warning C4716: 'Quicksort' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3270) : warning C4716: 'GetNames' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3354) : warning C4716: 'Error' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3420) : warning C4716: 'GetData' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3695) : warning C4716: 'Classify' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3747) : warning C4716: 'PrintTree' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3813) : warning C4716: 'Show' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3910) : warning C4716: 'ShowBranch' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(3968) : warning C4716: 'Indent' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4002) : warning C4716: 'SaveTree' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4056) : warning C4716: 'OutTree' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4172) : warning C4716: 'StreamOut' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4182) : warning C4716: 'StreamIn' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4217) : warning C4716: 'ReleaseTree' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4266) : warning C4716: 'Sprout' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4359) : warning C4716: 'SaveDiscreteNames' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4391) : warning C4716: 'RecoverDiscreteNames' : must return a value
+e:\铁路资料\决策树\c4.5r8\c45gt\c4.5gt.c(4418) : warning C4716: 'PrintHeader' : must return a value
+Linking...
+
+
+
+<h3>Results</h3>
+c4.5gt.exe - 0 error(s), 164 warning(s)
+</pre>
+</body>
+</html>

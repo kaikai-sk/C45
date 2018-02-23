@@ -1,0 +1,193 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: c4.5rulesgt - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XQG\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/c4.5rulesgt.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\铁路资料\决策树\c4.5rulesgt.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XQG\LOCALS~1\Temp\RSPEA.tmp" 
+Creating temporary file "C:\DOCUME~1\XQG\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/c4.5rulesgt.pdb" /debug /machine:I386 /out:"Debug/c4.5rulesgt.exe" /pdbtype:sept 
+".\Debug\c4.5rulesgt.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\XQG\LOCALS~1\Temp\RSPEB.tmp"
+<h3>Output Window</h3>
+Compiling...
+c4.5rulesgt.c
+E:\铁路资料\决策树\c4.5rulesgt.c(179) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(243) : warning C4013: 'PrintHeader' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(263) : warning C4013: 'atoi' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(266) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(268) : warning C4013: 'exit' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(271) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(275) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(292) : warning C4013: 'GetNames' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(293) : warning C4013: 'GetData' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(297) : warning C4013: 'GenerateLogs' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(301) : warning C4013: 'GenerateRules' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(306) : warning C4013: 'EvaluateRulesets' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(310) : warning C4013: 'SaveRules' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(356) : warning C4013: 'strcpy' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(357) : warning C4013: 'strcat' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(358) : warning C4013: 'Error' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(360) : warning C4013: 'StreamOut' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(389) : warning C4013: 'SaveDiscreteNames' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(418) : warning C4013: 'StreamIn' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(424) : warning C4013: 'calloc' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(427) : warning C4013: 'malloc' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(452) : warning C4013: 'free' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(455) : warning C4013: 'RecoverDiscreteNames' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(490) : warning C4013: 'realloc' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(588) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(623) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(625) : warning C4013: 'PrintRule' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(734) : warning C4013: 'PrintCondition' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(767) : warning C4033: 'PrintCondition' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(848) : warning C4305: '=' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(854) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(891) : warning C4013: 'FindTestCodes' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(902) : warning C4013: 'FormRules' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(906) : warning C4013: 'ConstructRuleset' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(949) : warning C4013: 'CompositeRuleset' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(887) : warning C4101: 'r' : unreferenced local variable
+E:\铁路资料\决策树\c4.5rulesgt.c(991) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(1000) : warning C4013: 'Quicksort' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1023) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(1140) : warning C4013: 'TreeParameters' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1167) : warning C4013: 'Scan' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1282) : warning C4013: 'PruneRule' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1357) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(1367) : warning C4013: 'FindTables' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1459) : warning C4033: 'PruneRule' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1465) : warning C4033: 'PruneRule' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1630) : warning C4013: 'UpdateCount' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1717) : warning C4244: '=' : conversion from 'short ' to 'char ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(1806) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(1884) : warning C4013: 'InitialiseTables' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1886) : warning C4013: 'FindRuleCodes' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1891) : warning C4013: 'CoverClass' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1894) : warning C4013: 'MakeIndex' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1895) : warning C4013: 'FindDefault' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(1993) : warning C4033: 'CoverClass' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2000) : warning C4013: 'AllCombinations' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(2005) : warning C4013: 'SimAnneal' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(2009) : warning C4013: 'SpotSearch' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(2012) : warning C4013: 'memcpy' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(2033) : warning C4013: 'CalculateValue' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(2041) : warning C4013: 'AddRule' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(2044) : warning C4013: 'DeleteRule' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(2069) : warning C4305: '*=' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(2097) : warning C4013: 'rand' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(2097) : warning C4244: '=' : conversion from 'double ' to 'short ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2125) : warning C4013: 'HillClimb' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(2151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2224) : warning C4244: '=' : conversion from 'float ' to 'short ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2316) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2644) : warning C4244: 'return' : conversion from 'const double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2649) : warning C4244: 'return' : conversion from 'const double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2652) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2653) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2666) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2672) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2705) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(2772) : warning C4033: 'EvaluateRulesets' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3012) : warning C4013: 'PrintConfusionMatrix' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(3072) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3072) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3072) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3072) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3072) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3072) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3072) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3073) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3073) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3073) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3073) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3073) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3073) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+E:\铁路资料\决策树\c4.5rulesgt.c(3100) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(3105) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(3106) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(3111) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(3117) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(3118) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(3136) : warning C4033: 'PrintConfusionMatrix' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3439) : warning C4013: 'strcmp' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(3442) : warning C4013: 'memcmp' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(3517) : warning C4013: 'strlen' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(3594) : warning C4101: 'j' : unreferenced local variable
+E:\铁路资料\决策树\c4.5rulesgt.c(3718) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(3779) : warning C4013: 'Classify' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(3825) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(3831) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(3834) : warning C4033: 'Classify' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3854) : warning C4033: 'Classify' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3875) : warning C4033: 'Classify' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3890) : warning C4033: 'Classify' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3903) : warning C4033: 'Classify' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3947) : warning C4013: 'Show' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(4002) : warning C4013: 'ShowBranch' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(4051) : warning C4013: 'Indent' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(4083) : warning C4033: 'ShowBranch' must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4209) : warning C4013: 'OutTree' undefined; assuming extern returning int
+E:\铁路资料\决策树\c4.5rulesgt.c(4453) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(4454) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\铁路资料\决策树\c4.5rulesgt.c(390) : warning C4716: 'SaveRules' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(738) : warning C4716: 'PrintRule' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(817) : warning C4716: 'PrintCondition' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(857) : warning C4716: 'GenerateLogs' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(951) : warning C4716: 'GenerateRules' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1026) : warning C4716: 'FindTestCodes' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1091) : warning C4716: 'CompositeRuleset' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1188) : warning C4716: 'FormRules' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1221) : warning C4716: 'TreeParameters' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1286) : warning C4716: 'Scan' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1493) : warning C4716: 'PruneRule' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1649) : warning C4716: 'FindTables' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1668) : warning C4716: 'UpdateCount' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1911) : warning C4716: 'ConstructRuleset' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(1956) : warning C4716: 'InitialiseTables' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2014) : warning C4716: 'CoverClass' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2047) : warning C4716: 'AllCombinations' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2126) : warning C4716: 'SimAnneal' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2160) : warning C4716: 'SpotSearch' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2246) : warning C4716: 'HillClimb' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2371) : warning C4716: 'CalculateValue' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2400) : warning C4716: 'AddRule' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2429) : warning C4716: 'DeleteRule' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2531) : warning C4716: 'MakeIndex' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2585) : warning C4716: 'FindDefault' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2707) : warning C4716: 'FindRuleCodes' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2739) : warning C4715: 'CondBits' : not all control paths return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(2829) : warning C4716: 'EvaluateRulesets' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3170) : warning C4716: 'PrintConfusionMatrix' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3241) : warning C4716: 'Quicksort' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3480) : warning C4716: 'GetNames' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3564) : warning C4716: 'Error' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3630) : warning C4716: 'GetData' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(3905) : warning C4716: 'Classify' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4023) : warning C4716: 'Show' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4120) : warning C4716: 'ShowBranch' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4178) : warning C4716: 'Indent' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4266) : warning C4716: 'OutTree' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4382) : warning C4716: 'StreamOut' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4392) : warning C4716: 'StreamIn' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4569) : warning C4716: 'SaveDiscreteNames' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4601) : warning C4716: 'RecoverDiscreteNames' : must return a value
+E:\铁路资料\决策树\c4.5rulesgt.c(4628) : warning C4716: 'PrintHeader' : must return a value
+Linking...
+
+
+
+<h3>Results</h3>
+c4.5rulesgt.exe - 0 error(s), 161 warning(s)
+</pre>
+</body>
+</html>

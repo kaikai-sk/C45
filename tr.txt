@@ -1,0 +1,28 @@
+
+C4.5 [release 8] decision tree generator	Fri Jun 02 21:27:34 2017
+----------------------------------------
+
+    Options:
+	File stem <D:\MyCppProject\c4.5r8\usr0>
+	Verbosity level 3
+
+Read 2500 cases (3 attributes) from D:\MyCppProject\c4.5r8\usr0.data
+
+Decision Tree:
+ >threshold2 (2500.0)
+
+
+
+>threshold2 (2500.00:0.00/1.39)
+
+Tree saved
+
+
+Evaluation on training data (2500 items):
+
+	 Before Pruning           After Pruning
+	----------------   ---------------------------
+	Size      Errors   Size      Errors   Estimate
+
+	   1    0( 0.0%)      1    0( 0.0%)    ( 0.1%)   <<
+the programme has done!!!!!!!!!!!Press any key to continue

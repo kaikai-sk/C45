@@ -1,0 +1,271 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: c45rules - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\WHXQG\LOCALS~1\Temp\RSPF6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/c45rules.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\c4.5r8\c45rules\c4.5rules.c"
+"D:\c4.5r8\c45rules\confmat.c"
+"D:\c4.5r8\c45rules\genlogs.c"
+"D:\c4.5r8\c45rules\genrules.c"
+"D:\c4.5r8\c45rules\getdata.c"
+"D:\c4.5r8\c45rules\getnames.c"
+"D:\c4.5r8\c45rules\getopt.c"
+"D:\c4.5r8\c45rules\header.c"
+"D:\c4.5r8\c45rules\makerules.c"
+"D:\c4.5r8\c45rules\prunerule.c"
+"D:\c4.5r8\c45rules\rules.c"
+"D:\c4.5r8\c45rules\siftrules.c"
+"D:\c4.5r8\c45rules\sort.c"
+"D:\c4.5r8\c45rules\stats.c"
+"D:\c4.5r8\c45rules\testrules.c"
+"D:\c4.5r8\c45rules\trees.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WHXQG\LOCALS~1\Temp\RSPF6.tmp" 
+Creating temporary file "C:\DOCUME~1\WHXQG\LOCALS~1\Temp\RSPF7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/c45rules.pdb" /debug /machine:I386 /out:"Debug/c45rules.exe" /pdbtype:sept 
+.\Debug\c4.5rules.obj
+.\Debug\confmat.obj
+.\Debug\genlogs.obj
+.\Debug\genrules.obj
+.\Debug\getdata.obj
+.\Debug\getnames.obj
+.\Debug\getopt.obj
+.\Debug\header.obj
+.\Debug\makerules.obj
+.\Debug\prunerule.obj
+.\Debug\rules.obj
+.\Debug\siftrules.obj
+.\Debug\sort.obj
+.\Debug\stats.obj
+.\Debug\testrules.obj
+.\Debug\trees.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\WHXQG\LOCALS~1\Temp\RSPF7.tmp"
+<h3>Output Window</h3>
+Compiling...
+c4.5rules.c
+d:\c4.5r8\c45rules\c4.5rules.c(38) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+d:\c4.5r8\c45rules\c4.5rules.c(70) : warning C4013: 'PrintHeader' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\c4.5rules.c(74) : warning C4013: 'getopt' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\c4.5rules.c(90) : warning C4013: 'atoi' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\c4.5rules.c(93) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\c4.5r8\c45rules\c4.5rules.c(95) : warning C4013: 'exit' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\c4.5rules.c(98) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\c4.5r8\c45rules\c4.5rules.c(102) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\c4.5r8\c45rules\c4.5rules.c(119) : warning C4013: 'GetNames' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\c4.5rules.c(120) : warning C4013: 'GetData' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\c4.5rules.c(124) : warning C4013: 'GenerateLogs' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\c4.5rules.c(128) : warning C4013: 'GenerateRules' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\c4.5rules.c(133) : warning C4013: 'EvaluateRulesets' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\c4.5rules.c(137) : warning C4013: 'SaveRules' undefined; assuming extern returning int
+confmat.c
+D:\c4.5r8\c45rules\confmat.c(19) : warning C4033: 'PrintConfusionMatrix' must return a value
+genlogs.c
+D:\c4.5r8\c45rules\genlogs.c(31) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genlogs.c(34) : warning C4305: '=' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\genlogs.c(40) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+genrules.c
+D:\c4.5r8\c45rules\genrules.c(38) : warning C4013: 'FindTestCodes' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(49) : warning C4013: 'FormRules' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(53) : warning C4013: 'ConstructRuleset' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(56) : warning C4013: 'PrintIndexedRules' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(66) : warning C4013: 'realloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(70) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(86) : warning C4013: 'exit' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(96) : warning C4013: 'CompositeRuleset' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(34) : warning C4101: 'r' : unreferenced local variable
+D:\c4.5r8\c45rules\genrules.c(125) : warning C4013: 'calloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(138) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\genrules.c(141) : warning C4013: 'free' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(147) : warning C4013: 'Quicksort' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\genrules.c(170) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\genrules.c(213) : warning C4013: 'InitialiseRules' undefined; assuming extern returning int
+getdata.c
+D:\c4.5r8\c45rules\genrules.c(173) : warning C4716: 'FindTestCodes' : must return a value
+D:\c4.5r8\c45rules\genrules.c(238) : warning C4716: 'CompositeRuleset' : must return a value
+D:\c4.5r8\c45rules\getdata.c(38) : warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getdata.c(39) : warning C4013: 'strcat' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getdata.c(40) : warning C4013: 'Error' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getdata.c(54) : warning C4013: 'realloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getdata.c(59) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getdata.c(33) : warning C4101: 'j' : unreferenced local variable
+D:\c4.5r8\c45rules\getdata.c(101) : warning C4013: 'calloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getdata.c(116) : warning C4013: 'strcmp' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getdata.c(122) : warning C4013: 'Which' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getdata.c(134) : warning C4013: 'exit' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getdata.c(157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+getnames.c
+D:\c4.5r8\c45rules\getnames.c(134) : warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(135) : warning C4013: 'strcat' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(136) : warning C4013: 'Error' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(140) : warning C4013: 'calloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(149) : warning C4013: 'realloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(160) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(201) : warning C4013: 'strcmp' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(204) : warning C4013: 'memcmp' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(210) : warning C4013: 'atoi' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(215) : warning C4013: 'exit' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\getnames.c(279) : warning C4013: 'strlen' undefined; assuming extern returning int
+getopt.c
+D:\c4.5r8\c45rules\getnames.c(326) : warning C4716: 'Error' : must return a value
+header.c
+d:\c4.5r8\c45rules\header.c(21) : warning C4013: 'sprintf' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\header.c(22) : warning C4013: 'printf' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\header.c(24) : warning C4013: 'strlen' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\header.c(25) : warning C4013: 'putchar' undefined; assuming extern returning int
+makerules.c
+d:\c4.5r8\c45rules\makerules.c(53) : warning C4013: 'TreeParameters' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\makerules.c(55) : warning C4013: 'calloc' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\makerules.c(71) : warning C4013: 'malloc' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\makerules.c(76) : warning C4013: 'InitialiseRules' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\makerules.c(80) : warning C4013: 'Scan' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\makerules.c(86) : warning C4013: 'free' undefined; assuming extern returning int
+d:\c4.5r8\c45rules\makerules.c(195) : warning C4013: 'PruneRule' undefined; assuming extern returning int
+prunerule.c
+d:\c4.5r8\c45rules\makerules.c(134) : warning C4716: 'TreeParameters' : must return a value
+d:\c4.5r8\c45rules\makerules.c(199) : warning C4716: 'Scan' : must return a value
+D:\c4.5r8\c45rules\prunerule.c(75) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\prunerule.c(85) : warning C4013: 'FindTables' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\prunerule.c(141) : warning C4013: 'PrintCondition' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\prunerule.c(177) : warning C4033: 'PruneRule' must return a value
+D:\c4.5r8\c45rules\prunerule.c(183) : warning C4033: 'PruneRule' must return a value
+D:\c4.5r8\c45rules\prunerule.c(348) : warning C4013: 'UpdateCount' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\prunerule.c(435) : warning C4244: '=' : conversion from 'short ' to 'char ', possible loss of data
+D:\c4.5r8\c45rules\prunerule.c(524) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+rules.c
+D:\c4.5r8\c45rules\prunerule.c(367) : warning C4716: 'FindTables' : must return a value
+D:\c4.5r8\c45rules\prunerule.c(386) : warning C4716: 'UpdateCount' : must return a value
+D:\c4.5r8\c45rules\rules.c(40) : warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(41) : warning C4013: 'strcat' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(42) : warning C4013: 'Error' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(44) : warning C4013: 'StreamOut' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(73) : warning C4013: 'SaveDiscreteNames' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(102) : warning C4013: 'StreamIn' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(108) : warning C4013: 'calloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(111) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(136) : warning C4013: 'free' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(139) : warning C4013: 'RecoverDiscreteNames' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(174) : warning C4013: 'realloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(272) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\rules.c(307) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\rules.c(309) : warning C4013: 'PrintRule' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(418) : warning C4013: 'PrintCondition' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\rules.c(451) : warning C4033: 'PrintCondition' must return a value
+siftrules.c
+D:\c4.5r8\c45rules\rules.c(422) : warning C4716: 'PrintRule' : must return a value
+D:\c4.5r8\c45rules\rules.c(501) : warning C4716: 'PrintCondition' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(54) : warning C4013: 'calloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(60) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(81) : warning C4013: 'InitialiseTables' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(83) : warning C4013: 'FindRuleCodes' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(88) : warning C4013: 'CoverClass' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(91) : warning C4013: 'MakeIndex' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(92) : warning C4013: 'FindDefault' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(96) : warning C4013: 'free' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(190) : warning C4033: 'CoverClass' must return a value
+D:\c4.5r8\c45rules\siftrules.c(197) : warning C4013: 'AllCombinations' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(202) : warning C4013: 'SimAnneal' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(206) : warning C4013: 'SpotSearch' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(209) : warning C4013: 'memcpy' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(230) : warning C4013: 'CalculateValue' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(238) : warning C4013: 'AddRule' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(241) : warning C4013: 'DeleteRule' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(266) : warning C4305: '*=' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\siftrules.c(294) : warning C4013: 'rand' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(294) : warning C4244: '=' : conversion from 'double ' to 'short ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(322) : warning C4013: 'HillClimb' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\siftrules.c(348) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(421) : warning C4244: '=' : conversion from 'float ' to 'short ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(513) : warning C4244: '-=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(841) : warning C4244: 'return' : conversion from 'const double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(846) : warning C4244: 'return' : conversion from 'const double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(849) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(850) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(863) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(869) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\siftrules.c(902) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+sort.c
+D:\c4.5r8\c45rules\siftrules.c(153) : warning C4716: 'InitialiseTables' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(211) : warning C4716: 'CoverClass' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(244) : warning C4716: 'AllCombinations' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(323) : warning C4716: 'SimAnneal' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(357) : warning C4716: 'SpotSearch' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(443) : warning C4716: 'HillClimb' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(568) : warning C4716: 'CalculateValue' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(597) : warning C4716: 'AddRule' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(626) : warning C4716: 'DeleteRule' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(728) : warning C4716: 'MakeIndex' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(782) : warning C4716: 'FindDefault' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(904) : warning C4716: 'FindRuleCodes' : must return a value
+D:\c4.5r8\c45rules\siftrules.c(936) : warning C4715: 'CondBits' : not all control paths return a value
+stats.c
+D:\c4.5r8\c45rules\stats.c(25) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(25) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(25) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(25) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(25) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(25) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(25) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(26) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(26) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(26) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(26) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(26) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(26) : warning C4305: 'initializing' : truncation from 'const double ' to 'float '
+D:\c4.5r8\c45rules\stats.c(53) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\stats.c(58) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\stats.c(59) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\stats.c(64) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\stats.c(70) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\stats.c(71) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+testrules.c
+D:\c4.5r8\c45rules\testrules.c(37) : warning C4033: 'EvaluateRulesets' must return a value
+D:\c4.5r8\c45rules\testrules.c(40) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\testrules.c(123) : warning C4013: 'calloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\testrules.c(252) : warning C4013: 'free' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\testrules.c(277) : warning C4013: 'PrintConfusionMatrix' undefined; assuming extern returning int
+trees.c
+D:\c4.5r8\c45rules\trees.c(45) : warning C4013: 'Show' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(100) : warning C4013: 'ShowBranch' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(149) : warning C4013: 'Indent' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(181) : warning C4033: 'ShowBranch' must return a value
+D:\c4.5r8\c45rules\trees.c(193) : warning C4013: 'strlen' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(294) : warning C4013: 'strcmp' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(300) : warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(301) : warning C4013: 'strcat' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(303) : warning C4013: 'Error' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(307) : warning C4013: 'OutTree' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(309) : warning C4013: 'SaveDiscreteNames' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(328) : warning C4013: 'StreamOut' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(397) : warning C4013: 'RecoverDiscreteNames' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(418) : warning C4013: 'malloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(420) : warning C4013: 'StreamIn' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(425) : warning C4013: 'calloc' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(514) : warning C4013: 'free' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(547) : warning C4013: 'memcpy' undefined; assuming extern returning int
+D:\c4.5r8\c45rules\trees.c(551) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\trees.c(552) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\c4.5r8\c45rules\trees.c(121) : warning C4716: 'Show' : must return a value
+D:\c4.5r8\c45rules\trees.c(218) : warning C4716: 'ShowBranch' : must return a value
+D:\c4.5r8\c45rules\trees.c(276) : warning C4716: 'Indent' : must return a value
+D:\c4.5r8\c45rules\trees.c(364) : warning C4716: 'OutTree' : must return a value
+D:\c4.5r8\c45rules\trees.c(480) : warning C4716: 'StreamOut' : must return a value
+D:\c4.5r8\c45rules\trees.c(490) : warning C4716: 'StreamIn' : must return a value
+D:\c4.5r8\c45rules\trees.c(667) : warning C4716: 'SaveDiscreteNames' : must return a value
+D:\c4.5r8\c45rules\trees.c(699) : warning C4716: 'RecoverDiscreteNames' : must return a value
+Linking...
+
+
+
+<h3>Results</h3>
+c45rules.exe - 0 error(s), 194 warning(s)
+</pre>
+</body>
+</html>
